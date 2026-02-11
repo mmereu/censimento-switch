@@ -1,0 +1,69 @@
+body {
+    background-color: #f4f6f9;
+}
+
+.search-card {
+    border: none;
+    border-radius: 8px;
+}
+
+.search-card .card-title {
+    color: #2c3e50;
+}
+
+.example-link {
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 0.85rem;
+    transition: background-color 0.2s;
+}
+
+.example-link:hover {
+    background-color: #d0e2ff !important;
+}
+
+#resultsTable thead th {
+    font-size: 0.9rem;
+    white-space: nowrap;
+}
+
+#resultsTable tbody td {
+    font-size: 0.88rem;
+    vertical-align: middle;
+}
+
+#resultCount {
+    font-size: 0.95rem;
+}
+
+.dataTables_filter input {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 4px 8px;
+}
+
+.navbar-brand {
+    letter-spacing: 0.5px;
+}
+
+footer p {
+    font-size: 0.8rem;
+}
+
+.row-green {
+    background-color: #d4edda !important;
+    color: #155724;
+}
+
+.row-green td {
+    background-color: #d4edda !important;
+}
+
+.row-red {
+    background-color: #f8d7da !important;
+    color: #721c24;
+}
+
+.row-red td {
+    background-color: #f8d7da !important;
+}
